@@ -1,15 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeira Página</title>
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Aula HTML e CSS</h1>
-    <img src="20250711_163408.jpg" alt="Descrição da imagem" width="300">
-    <br>
-    <p>Emilly Damasceno da Silva</p>
-    <br>
+    <div class="container">
+        <h1 class="titulo-grande">Aula HTML e CSS</h1>
+        
+        <div class="imagem-container">
+            <img src="20250711_163408.jpg" alt="Imagem" class="imagem-principal">
+        </div>
+        
+        <p class="texto-pequeno">Emilly Damasceno da Silva</p>
+        
+        <div class="botao-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/271/271226.png" alt="Seta" class="seta">
+            <a href="segundapagina.html" class="botao">Ir para Segunda Página</a>
+        </div>
+    </div>
 </body>
 </html>
