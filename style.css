@@ -3,68 +3,60 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center;
 }
 
-.titulo-grande {
+.titulo {
     font-size: 2.5em;
     color: #333;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .imagem-container {
     margin: 20px 0;
 }
 
-.imagem-principal {
+.imagem {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-.texto-pequeno {
+.texto {
     font-size: 1.1em;
     color: #666;
     margin-bottom: 30px;
-    line-height: 1.6;
 }
 
 .botao-container {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
 .botao {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #007BFF;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: bold;
+    font-size: 1em;
     transition: background-color 0.3s;
 }
 
 .botao:hover {
-    background-color: #45a049;
+    background-color: #0056b3;
 }
 
 .seta {
     width: 30px;
     height: auto;
-    animation: pulsar 1.5s infinite;
-}
-
-@keyframes pulsar {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(5px); }
-    100% { transform: translateX(0); }
 }
