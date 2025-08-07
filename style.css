@@ -1,62 +1,62 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    text-align: center;
+    font-family: Arial, sans-serif; /* Fonte das letras da página */
+    margin: 0; /* Tira espaço das bordas da tela */
+    padding: 0; /* Tira espaço interno do corpo da página */
+    background-color: #f4f4f4; /* Cor de fundo cinza clara */
+    text-align: center; /* Centraliza o conteúdo */
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza na tela */
+    padding: 20px; /* Espaço dentro do container */
 }
 
 .titulo {
-    font-size: 2.5em;
-    color: #333;
-    margin-bottom: 20px;
+    font-size: 2.5em; /* Tamanho grande pro título */
+    color: #333; /* Cor cinza escura */
+    margin-bottom: 20px; /* Espaço abaixo do título */
 }
 
 .imagem-container {
-    margin: 20px 0;
+    margin: 20px 0; /* Espaço em cima e embaixo da imagem */
 }
 
 .imagem {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
+    width: 300px; /* imagem vai ter no máximo 300px de largura */
+    height: auto; /* altura vai se ajustar sozinha pra não distorcer */
+    border-radius: 8px; /* cantos arredondados na imagem */
 }
 
 .texto {
-    font-size: 1.1em;
-    color: #666;
-    margin-bottom: 30px;
+    font-size: 1.1em; /* tamanho um pouco maior que o normal */
+    color: #666; /* Cor cinza média */
+    margin-bottom: 30px; /* Espaço abaixo do texto */
 }
 
 .botao-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    display: flex; /* Deixa os itens lado a lado */
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; /* Centraliza na vertical */
+    gap: 10px; /* Espaço entre botão e seta */
 }
 
 .botao {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1em;
-    transition: background-color 0.3s;
+    display: inline-block; /* Permite mexer no tamanho do botão */
+    padding: 10px 20px; /* Espaço dentro do botão */
+    background-color: #007BFF; /* Cor azul */
+    color: white; /* Texto branco */
+    text-decoration: none; /* Tira o sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1em; /* Tamanho da letra normal */
+    transition: background-color 0.3s; /* Efeito suave ao passar o mouse */
 }
 
 .botao:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Azul mais escuro quando passa o mouse */
 }
 
 .seta {
-    width: 30px;
-    height: auto;
+    width: 30px; /* Largura da imagem da seta */
+    height: auto; /* Altura se ajusta sozinha */
 }
